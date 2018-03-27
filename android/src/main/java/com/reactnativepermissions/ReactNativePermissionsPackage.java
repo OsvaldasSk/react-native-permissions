@@ -13,7 +13,7 @@ public class ReactNativePermissionsPackage implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.<NativeModule>asList(new RNZingleModule(reactContext));
+        return Arrays.<NativeModule>asList(new ReactNativePermissionsModule(reactContext));
     }
 
     @Override
